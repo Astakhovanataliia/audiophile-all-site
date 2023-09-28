@@ -1,0 +1,306 @@
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    justify-content: center;
+  }
+  .container__block {
+    max-width: 689px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 42px;
+  }
+  .container__block button.basket {
+    margin-left: auto;
+  }
+  .container__block nav {
+    display: none;
+  }
+  .container__block button.burger {
+    display: block;
+  }
+  .container__new_product {
+    align-items: center;
+    justify-content: center;
+  }
+  .container__new_product-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .container__new_product-bg {
+    right: 30px;
+  }
+  .container__footer {
+    max-width: 768px;
+  }
+  .container__footer-content {
+    max-width: 689px;
+    gap: 32px;
+  }
+
+  .Wrapp {
+    max-width: 768px;
+  }
+
+  .wrapp__block {
+    max-width: 689px;
+    z-index: 1;
+    gap: 10px;
+  }
+  .wrapp__block-product {
+    max-width: 223px;
+    max-height: 165px;
+    padding-bottom: 22px;
+    background-position: center 0;
+  }
+  .wrapp__block-product img {
+    max-width: 40%;
+  }
+  .wrapp__block-colum {
+    max-width: 689px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+  }
+  .wrapp__block-colum img {
+    width: 198px;
+    height: 237px;
+    margin-top: 52px;
+  }
+  .wrapp__block-speacer {
+    max-width: 689px;
+    background-position: bottom;
+  }
+  .wrapp__block-aerphones {
+    max-width: 768px;
+    justify-content: center;
+    gap: 10px;
+  }
+  .wrapp__block-aerphones img {
+    width: 540px;
+    height: 320px;
+  }
+  .wrapp__block-bringing {
+    max-width: 768px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+
+  .block__collum-decor {
+    top: -39%;
+    left: -18%;
+  }
+  .block__collum-last {
+    top: -87px;
+    left: 11%;
+  }
+  .block__collum-small {
+    top: -56px;
+    left: 15%;
+  }
+  .block__collum-product {
+    align-items: center;
+    text-align: center;
+  }
+  .block__speacer-content {
+    max-width: 768px;
+    top: 20%;
+    left: 4%;
+  }
+  .block__aerphones-yx1 {
+    max-width: 339px;
+  }
+  .block__aerphones-yx1 img {
+    max-width: 339px;
+    max-height: 320px;
+  }
+  .block__aerphones-content {
+    max-width: 339px;
+  }
+  .block__bringing-content {
+    width: 573px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .block__bringing-bg {
+    width: 689px;
+    height: 300px;
+    background-image: url(../images/men-768.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+
+  .footer {
+    max-width: 768px;
+  }
+  .footer__content {
+    max-width: 689px;
+  }
+  .footer__content-link {
+    flex-direction: column;
+    align-items: start;
+    gap: 34px;
+  }
+  .footer__content-link ul {
+    padding: 0;
+  }
+  .footer__content-text {
+    width: 689px;
+    flex-wrap: nowrap;
+  }
+
+  .content__text {
+    max-width: 689px;
+  }
+  .content__text-generel {
+    position: relative;
+    z-index: 6;
+    max-width: 689px;
+  }
+  .content__text-generel p {
+    width: 689px;
+  }
+  .content__text-icon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    margin-left: -10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Wrapp {
+    max-width: 768px;
+  }
+
+  .wrapp__category {
+    max-width: 768px;
+    flex-wrap: wrap;
+    gap: 52px;
+  }
+  .wrapp__category-bg {
+    max-width: 689px;
+    max-height: 352px;
+  }
+  .wrapp__category-content {
+    max-width: 572px;
+    text-align: center;
+    align-items: center;
+  }
+  .wrapp__category-content form {
+    padding-top: 0;
+  }
+  .wrapp__flex {
+    flex-wrap: wrap-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Wrapp {
+    max-width: 768px;
+  }
+
+  .wrapp__detail {
+    max-width: 689.5px;
+  }
+  .wrapp__new_product-cart {
+    width: 377px;
+    height: 488px;
+    align-items: start;
+    text-align: start;
+  }
+  .wrapp__price {
+    max-width: 768px;
+    flex-wrap: nowrap;
+    gap: 64px;
+  }
+  .wrapp__price-bg {
+    max-width: 281px;
+    height: 480px;
+    background-position: 50% 75%;
+  }
+  .wrapp__price-bg img {
+    max-width: 181px;
+  }
+  .wrapp__price-content {
+    max-width: 339px;
+    text-align: start;
+    align-items: start;
+  }
+  .wrapp__price-content form {
+    padding-top: 0;
+  }
+  .wrapp__text {
+    max-width: 768px;
+    justify-content: center;
+    margin-top: 120px;
+    padding-bottom: 200px;
+    gap: 120px;
+  }
+  .wrapp__text-inform {
+    width: 689px;
+  }
+  .wrapp__text-characteristic {
+    margin-right: auto;
+    width: 549px;
+    flex-direction: row;
+    gap: 11px;
+    justify-content: space-between;
+  }
+  .wrapp__text-characteristic h3 {
+    padding-left: 39px;
+  }
+  .wrapp__block {
+    max-width: 689px;
+    height: 368px;
+    padding-top: 0;
+    margin-bottom: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .wrapp__block-fon {
+    justify-content: start;
+    gap: 16px;
+  }
+  .wrapp__block-fon img {
+    width: 277px;
+    height: 174px;
+  }
+  .wrapp__block-headfon {
+    max-width: 395px;
+  }
+  .wrapp__block-headfon img {
+    width: 395px;
+    height: 368px;
+  }
+  .wrapp__block-like {
+    max-width: 768px;
+  }
+
+  .block__like-product {
+    max-width: 689px;
+    gap: 11px;
+    flex-wrap: nowrap;
+  }
+
+  .like__product-name {
+    width: 223px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapp__detail-checkaut {
+    max-width: 689px;
+    padding: 27px;
+  }
+  .wrapp__detail-sammary {
+    width: 689px;
+  }
+  .wrapp__detail-sammary button {
+    width: 623px;
+  }
+  .wrapp__detail-order {
+    top: 9.2%;
+    left: 11%;
+  }
+}
